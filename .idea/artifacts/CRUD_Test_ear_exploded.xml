@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="CRUD_Test:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/CRUD_Test_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="CRUD_Test/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="CRUD_Test:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

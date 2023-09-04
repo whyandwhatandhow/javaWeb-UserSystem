@@ -1,0 +1,85 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <title>Login Page</title>  
+  <style>  
+    body {  
+      font-family: Arial, sans-serif;  
+      background-color: #f4f4f4;  
+      margin: 0;  
+      padding: 0;  
+    }  
+  
+    .container {  
+      max-width: 400px;  
+      margin: 0 auto;  
+      padding: 20px;  
+      background-color: #fff;  
+      border-radius: 5px;  
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    }  
+  
+    .container h2 {  
+      text-align: center;  
+    }  
+  
+    .container .form-group {  
+      margin-bottom: 20px;  
+    }  
+  
+    .container .form-group label {  
+      display: block;  
+      font-weight: bold;  
+      margin-bottom: 5px;  
+    }  
+  
+    .container .form-group input[type="text"],  
+    .container .form-group input[type="password"] {  
+      width: 100%;  
+      padding: 10px;  
+      font-size: 16px;  
+      border-radius: 5px;  
+      border: 1px solid #ddd;  
+    }  
+  
+    .container .form-group input[type="checkbox"] {  
+      margin-left: 10px;  
+    }  
+  
+    .container .form-group input[type="submit"] {  
+      width: 100%;  
+      padding: 10px;  
+      background-color: #555;  
+      color: #fff;  
+      font-weight: bold;  
+      border: none;  
+      border-radius: 5px;  
+      cursor: pointer;  
+    }  
+  </style>  
+</head>  
+<body>  
+  <div class="container">  
+    <h2>Login</h2>
+    <form action="#" method="post">
+      <div class="form-group">  
+        <label for="username">Username:</label>  
+        <input type="text" id="username" name="用户名" required>
+      </div>  
+      <div class="form-group">  
+        <label for="password">Password:</label>  
+        <input type="password" id="password" name="密码" required>
+      </div>  
+      <div class="form-group">  
+        <label for="captcha">Captcha:</label>  
+        <input type="text" id="captcha" name="captcha" required>  
+        <img src="captcha.php" alt="Captcha Image">  
+        <a href="#" onclick=" ">reload</a>
+      </div>  
+      <div class="form-group">  
+        <input type="submit" value="Login">  
+      </div>  
+    </form>  
+  </div>  
+</body>  
+</html>
